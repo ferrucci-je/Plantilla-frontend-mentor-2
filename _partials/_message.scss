@@ -1,0 +1,25 @@
+.message {
+    display: flex;
+    flex-direction: row;
+    input {
+    background-color: $colorWhite;
+    font-size: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 80%;
+}
+    button {
+        background-color: $colorWhite;
+        margin-top: 5%;
+        width: 12%;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px; 
+        i {
+            background-color: $colorWhite;
+            width: 25px;
+        }      
+    }
+}

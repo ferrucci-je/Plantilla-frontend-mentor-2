@@ -1,0 +1,19 @@
+@import './_partials/conversation', './_partials/_message', './_partials/footer', './_partials/grid-container','./_partials/media','./_partials/mobile', './_partials/text', './_partials/colors';
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background: url(./images/method-draw-image.svg);
+
+}
+
+// .attribution { font-size: 11px; text-align: center; }
+// .attribution a { color: hsl(228, 45%, 44%); }

@@ -1,0 +1,228 @@
+.conversation {
+  background-color: #e2e2e2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.conversation span {
+  background-color: #c6cacd;
+  display: block;
+  border-radius: 10px;
+  color: #9241c8;
+  font-size: 10px;
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 3%;
+}
+
+.conversation .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #e2e2e2;
+}
+
+.conversation .images img {
+  width: 57px;
+  border-radius: 10px;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.conversation p {
+  background-color: white;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 37%;
+  font-size: 10px;
+  padding-bottom: 3%;
+  color: #a39daa;
+}
+
+.conversation p:last-child {
+  width: 30%;
+  margin-left: 15%;
+}
+
+.conversation .prices {
+  background: -webkit-gradient(linear, left top, right top, color-stop(34%, #c960bf), to(#7c19be));
+  background: linear-gradient(90deg, #c960bf 34%, #7c19be 100%);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 60%;
+  margin-top: 10px;
+  font-size: 10px;
+  color: white;
+  margin-left: 3%;
+  padding-bottom: 3%;
+}
+
+.message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.message input {
+  background-color: white;
+  font-size: 10px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.message button {
+  background-color: white;
+  margin-top: 5%;
+  width: 12%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.message button i {
+  background-color: white;
+  width: 25px;
+}
+
+footer {
+  width: 90%;
+}
+
+footer h4 {
+  font-size: 32px;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-weight: 500;
+  text-align: center;
+}
+
+footer p {
+  margin-left: 15%;
+  margin-top: 5%;
+  color: gray;
+  text-align: center;
+  width: 85%;
+  font-size: 14px;
+  padding-bottom: 20%;
+  letter-spacing: 1px;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15% 85%;
+      grid-template-columns: 15% 85%;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 5% 0px;
+      grid-template-areas: "img h1 h1" "img p p";
+  background: -webkit-gradient(linear, left top, right top, color-stop(34%, #7c19be), to(#da2bc9));
+  background: linear-gradient(90deg, #7c19be 34%, #da2bc9 100%);
+  color: white;
+  padding-left: 10%;
+  padding-top: 15%;
+  padding-bottom: 7%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.grid-container .celular-top {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 35%;
+  width: 150px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  top: 9.5%;
+  height: 27px;
+}
+
+.grid-container img {
+  width: 35px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  grid-area: img;
+  border-radius: 100px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.grid-container h1 {
+  font-weight: 700;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: h1;
+  margin-left: 5%;
+  background: none;
+}
+
+.grid-container p {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: p;
+  font-weight: 400;
+  margin-left: 5%;
+  font-size: 12px;
+  background: none;
+}
+
+.mobile {
+  margin: auto;
+  margin-top: 18%;
+  margin-left: 13%;
+  border-color: white;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 37px;
+  height: 610px;
+  width: 80%;
+  background-color: #e2e2e2;
+  z-index: 100;
+}
+
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: normal;
+}
+
+body {
+  background: url(./images/method-draw-image.svg);
+}
+/*# sourceMappingURL=styles.css.map */

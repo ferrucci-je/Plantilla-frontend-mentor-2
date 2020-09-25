@@ -1,0 +1,54 @@
+@import './colors';
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 1fr 1fr;
+    gap: 5% 0px;
+    grid-template-areas:
+      "img h1 h1"
+      "img p p";
+    background: linear-gradient(90deg, rgba(124,25,190,1) 34%, rgba(218,43,201,1) 100%);
+    color: $colorWhite;
+    padding-left: 10%;
+    padding-top: 15%;
+    padding-bottom: 7%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    .celular-top{
+        background-color: $colorWhite;
+        display: flex;
+        position: absolute;
+        left: 35%;
+        width: 150px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        top: 9.5%;
+        height: 27px;
+    }
+    img {
+    width: 35px;  
+    grid-area: img;
+    border-radius: 100px;
+    border-color: $colorWhite;
+    border-width: 2px;
+    border-style: solid;
+        }
+  h1 {
+    font-weight: 700;
+    grid-area: h1;
+    margin-left: 5%;
+    background: none;
+        }
+  p { 
+    grid-area: p;
+    font-weight: 400;
+    margin-left: 5%;
+    font-size: 12px;
+    background: none;
+}
+}

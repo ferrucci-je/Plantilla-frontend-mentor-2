@@ -1,0 +1,15 @@
+@import './colors';
+
+.mobile {
+    margin: auto;
+    margin-top: 18%;
+    margin-left: 13%;
+    border-color: $colorWhite;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 37px;
+    height: 610px;
+    width: 80%;
+    background-color: #e2e2e2;
+    z-index: 100;
+}
