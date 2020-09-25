@@ -154,14 +154,14 @@ footer p {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  left: 35%;
-  width: 150px;
+  left: 37vw;
+  width: 30vw;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  top: 9.5%;
-  height: 27px;
+  top: 18vw;
+  height: 6vw;
 }
 
 .grid-container img {
@@ -205,10 +205,9 @@ footer p {
   border-style: solid;
   border-width: 10px;
   border-radius: 37px;
-  height: 610px;
+  height: 135vh;
   width: 80%;
   background-color: #e2e2e2;
-  z-index: 100;
 }
 
 * {
@@ -220,9 +219,11 @@ footer p {
   font-size: 16px;
   font-family: 'Rubik', sans-serif;
   font-weight: normal;
+  max-height: 650px;
 }
 
 body {
-  background: url(./images/method-draw-image.svg);
+  background: url(./images/method-draw-image.svg) no-repeat;
+  background-size: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
