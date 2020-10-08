@@ -1,14 +1,12 @@
 @import './colors';
 
 .mobile {
-    margin: auto;
-    margin-top: 18%;
-    margin-left: 13%;
+    margin-top: 22vh;
+    margin-left: 8vw;
     border-color: $colorWhite;
     border-style: solid;
-    border-width: 10px;
+    border-width: 2vh;
     border-radius: 37px;
-    height: 135vh;
-    width: 80%;
+    width: 85vw;
     background-color: #e2e2e2;
 }

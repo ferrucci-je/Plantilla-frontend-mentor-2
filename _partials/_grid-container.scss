@@ -21,17 +21,17 @@
         background-color: $colorWhite;
         display: flex;
         position: absolute;
-        left: 37vw;
-        width: 30vw;
+        left: 33vw;
+        width: 35vw;
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 15px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-        top: 18vw;
+        top: 9.5em;
         height: 6vw;
     }
     img {
-    width: 35px;  
+    width: 10vw;  
     grid-area: img;
     border-radius: 100px;
     border-color: $colorWhite;
